@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="icon.png">
+    <title>Create</title>
+</head>
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src = "setter.js"></script>
+
+<link rel="stylesheet" type ="text/css" href="NAVIGATION_BAR.css" />
+<link rel="stylesheet" type ="text/css" href="setter.css" />
+
+<body>
+<!-- Navigation Bar-->
+<!-- <nav class = "horiz">
+    <ul>
+        <li><a class="active" href="">HOME</a></li>
+        <li><a class="active" href="Setter.html">Create</a></li>
+        <li><a class="active" href="Labeler.html">Learn</a></li>
+    </ul>
+</nav> -->
+
+
+<br><br><br><br>
+
+
+<form>
+    <h1>
+        <input type = "input" id = "StudySetName" placeholder = "Study set name…" style = "font-size : 45px;
+        margin-bottom: 50px;"/>
+    </h1>
+
+    <h4
+    style = "
+    font-weight: bolder;">ADD TERMS HERE:</h4>
+    <div id = "terms">
+        <strong>1. </strong><input type = "text"/></br>
+        <strong>2. </strong><input type = "text"/></br>
+        <strong>3. </strong><input type = "text"/></br>
+
+        <!--input feilds are created and appended here-->
+    </div>
+
+    <div id = "termbuttons">
+        <input type = "button" value = "add term" onclick="myFunction()" id = "buttons" /> <!--creating input feilds-->
+<!-- 
+        <a href = "labeler.html"> -->
+            <input type="button" id="chart-report-submit"  onclick="getter()" value = "Done" />
+        <!-- </a> -->
+    </div>
+</form>
+
+</body>
+</html>
